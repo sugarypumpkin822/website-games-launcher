@@ -85,7 +85,7 @@ class PapasGamesLauncher(QMainWindow):
         
         # App metadata
         self.version = "2.0.0"
-        self.github_repo = "https://github.com/sugarypumpkin822/papas-games-launcher"
+        self.github_repo = "https://github.com/sugarypumpkin822/website-games-launcher"
         
         self.setWindowTitle(f"🎮 Papa's Games Launcher v{self.version}")
         self.setGeometry(100, 100, 1700, 1000)
