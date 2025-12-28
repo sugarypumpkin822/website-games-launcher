@@ -1,0 +1,164 @@
+# ============================================================================
+# Papa's Games Launcher - Development Requirements
+# ============================================================================
+#
+# Install both production and development dependencies:
+#   pip install -r requirements.txt -r requirements-dev.txt
+#
+# Or install everything at once:
+#   pip install -r requirements-dev.txt
+#
+# ============================================================================
+
+# Install production requirements first
+-r requirements.txt
+
+# ============================================================================
+# Testing Framework
+# ============================================================================
+pytest>=7.2.0,<8.0.0  # Testing framework
+pytest-qt>=4.2.0  # PyQt testing utilities
+pytest-cov>=4.0.0  # Code coverage reporting
+pytest-mock>=3.10.0  # Mocking framework
+pytest-xdist>=3.1.0  # Parallel test execution
+pytest-timeout>=2.1.0  # Test timeout management
+pytest-asyncio>=0.20.0  # Async test support
+coverage>=7.0.0  # Code coverage measurement
+
+# ============================================================================
+# Code Quality & Linting
+# ============================================================================
+black>=22.0.0  # Code formatter
+flake8>=6.0.0  # Style guide enforcement
+pylint>=2.15.0  # Static code analysis
+mypy>=0.990  # Static type checker
+isort>=5.11.0  # Import statement organizer
+autopep8>=2.0.0  # PEP 8 auto-formatter
+pydocstyle>=6.3.0  # Docstring style checker
+bandit>=1.7.0  # Security issue checker
+safety>=2.3.0  # Dependency security checker
+
+# ============================================================================
+# Code Complexity & Metrics
+# ============================================================================
+radon>=5.1.0  # Code complexity analysis
+xenon>=0.9.0  # Code complexity monitoring
+mccabe>=0.7.0  # Complexity checker for flake8
+
+# ============================================================================
+# Documentation
+# ============================================================================
+sphinx>=5.3.0  # Documentation generator
+sphinx-rtd-theme>=1.1.0  # Read the Docs theme
+sphinx-autodoc-typehints>=1.19.0  # Type hints in docs
+sphinxcontrib-napoleon>=0.7  # Google/NumPy docstring support
+sphinx-copybutton>=0.5.0  # Copy button for code blocks
+myst-parser>=0.18.0  # Markdown support in Sphinx
+
+# ============================================================================
+# Build & Packaging
+# ============================================================================
+setuptools>=65.0.0  # Package building
+wheel>=0.38.0  # Wheel package building
+build>=0.9.0  # PEP 517 build frontend
+twine>=4.0.0  # Package uploading to PyPI
+PyInstaller>=5.7.0  # Executable creation
+auto-py-to-exe>=2.27.0  # GUI for PyInstaller
+briefcase>=0.3.0  # Cross-platform app packaging
+
+# ============================================================================
+# Version Control & Git
+# ============================================================================
+pre-commit>=2.20.0  # Git hook management
+commitizen>=2.37.0  # Standardized commit messages
+gitchangelog>=3.0.4  # Changelog generation
+
+# ============================================================================
+# Development Utilities
+# ============================================================================
+ipython>=8.7.0  # Enhanced interactive Python shell
+ipdb>=0.13.0  # IPython-enabled debugger
+rich>=13.0.0  # Beautiful terminal formatting
+tqdm>=4.64.0  # Progress bars
+click>=8.1.0  # Command-line interface creation
+python-dotenv>=0.21.0  # Environment variable management
+
+# ============================================================================
+# Performance Profiling
+# ============================================================================
+py-spy>=0.3.0  # Sampling profiler
+memory-profiler>=0.60.0  # Memory usage profiler
+line-profiler>=4.0.0  # Line-by-line profiler
+scalene>=1.5.0  # CPU/GPU/memory profiler
+snakeviz>=2.1.0  # Profile visualization
+
+# ============================================================================
+# API & HTTP Testing
+# ============================================================================
+responses>=0.22.0  # Mock requests responses
+vcrpy>=4.2.0  # Record/replay HTTP interactions
+faker>=15.0.0  # Generate fake data for testing
+factory-boy>=3.2.0  # Test fixtures
+
+# ============================================================================
+# Debugging Tools
+# ============================================================================
+icecream>=2.1.0  # Debugging print statements
+pdbpp>=0.10.0  # Enhanced Python debugger
+better-exceptions>=0.3.0  # Pretty exception output
+
+# ============================================================================
+# Type Checking Extensions
+# ============================================================================
+types-requests>=2.28.0  # Type stubs for requests
+types-PyYAML>=6.0.0  # Type stubs for PyYAML
+types-beautifulsoup4>=4.11.0  # Type stubs for bs4
+PyQt6-stubs>=6.4.0  # Type stubs for PyQt6
+
+# ============================================================================
+# Continuous Integration
+# ============================================================================
+tox>=4.0.0  # Test automation
+nox>=2022.0.0  # Flexible test automation
+
+# ============================================================================
+# Security Testing
+# ============================================================================
+pip-audit>=2.4.0  # Audit dependencies for vulnerabilities
+semgrep>=1.0.0  # Static analysis security testing
+
+# ============================================================================
+# Release Management
+# ============================================================================
+bump2version>=1.0.0  # Version bumping
+python-semantic-release>=7.32.0  # Automated releases
+
+# ============================================================================
+# Jupyter (for data analysis and visualization)
+# ============================================================================
+jupyter>=1.0.0  # Jupyter notebook
+jupyterlab>=3.5.0  # JupyterLab interface
+notebook>=6.5.0  # Classic notebook interface
+
+# ============================================================================
+# Additional Development Tools
+# ============================================================================
+watchdog>=2.2.0  # File system event monitoring
+livereload>=2.6.0  # Auto-reload during development
+invoke>=1.7.0  # Task execution tool
+makefile>=0.1.0  # Makefile support
+
+# ============================================================================
+# Optional GUI Development Tools
+# ============================================================================
+qt-material>=2.14  # Material Design for Qt
+pyqtgraph>=0.13.0  # Scientific graphics and GUI library
+qdarkstyle>=3.1  # Dark stylesheet for Qt
+
+# ============================================================================
+# Version Information
+# ============================================================================
+# These development tools are tested on Python 3.8+
+# Not all tools are required - install what you need
+# Last updated: 2024-12-27
+# ============================================================================

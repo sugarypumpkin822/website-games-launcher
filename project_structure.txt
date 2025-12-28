@@ -1,0 +1,29 @@
+website-games-launcher/
+├── core/
+│   ├── __init__.py
+│   ├── achievement_manager.py
+│   ├── download_manager.py
+│   ├── game_manager.py
+│   └── settings_manager.py
+├── gui/
+│   ├── tabs/
+│   │   ├── __init__.py
+│   │   └── games_tab.py
+│   ├── widgets/
+│   │   ├── __init__.py
+│   │   └── fullscreen_game_window.py
+│   ├── __init__.py
+│   └── main_window.py
+├── models/
+│   ├── __init__.py
+│   ├── achievement.py
+│   ├── daily_challenge.py
+│   └── game_item.py
+├── utils/
+│   ├── __init__.py
+│   ├── daily_challenge_generator.py
+│   └── update_checker.py
+├── LICENSE
+├── main.py
+├── README.md
+└── requirements.txt
